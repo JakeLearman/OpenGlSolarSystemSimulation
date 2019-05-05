@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Celestials">
+      <UniqueIdentifier>{b9fcf6eb-819c-435e-a271-a82542fb54df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Celestials">
+      <UniqueIdentifier>{6bcf38db-ef75-4c94-b2ed-0b3f33263361}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Planet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Satellite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Coordinates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SolarSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceSphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Venus.h">
+      <Filter>Header Files\Celestials</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun.h">
+      <Filter>Header Files\Celestials</Filter>
+    </ClInclude>
+    <ClInclude Include="Uranus.h">
+      <Filter>Header Files\Celestials</Filter>
+    </ClInclude>
+    <ClInclude Include="Saturn.h">
+      <Filter>Header Files\Celestials</Filter>
+    </ClInclude>
+    <ClInclude Include="Pluto.h">
+      <Filter>Header Files\Celestials</Filter>
+    </ClInclude>
+    <ClInclude Include="Neptune.h">
+      <Filter>Header Files\Celestials</Filter>
+    </ClInclude>
+    <ClInclude Include="Moon.h">
+      <Filter>Header Files\Celestials</Filter>
+    </ClInclude>
+    <ClInclude Include="Mercury.h">
+      <Filter>Header Files\Celestials</Filter>
+    </ClInclude>
+    <ClInclude Include="Jupiter.h">
+      <Filter>Header Files\Celestials</Filter>
+    </ClInclude>
+    <ClInclude Include="Mars.h">
+      <Filter>Header Files\Celestials</Filter>
+    </ClInclude>
+    <ClInclude Include="Earth.h">
+      <Filter>Header Files\Celestials</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Satellite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Earth.cpp">
+      <Filter>Source Files\Celestials</Filter>
+    </ClCompile>
+    <ClCompile Include="Jupiter.cpp">
+      <Filter>Source Files\Celestials</Filter>
+    </ClCompile>
+    <ClCompile Include="Mars.cpp">
+      <Filter>Source Files\Celestials</Filter>
+    </ClCompile>
+    <ClCompile Include="Mercury.cpp">
+      <Filter>Source Files\Celestials</Filter>
+    </ClCompile>
+    <ClCompile Include="Moon.cpp">
+      <Filter>Source Files\Celestials</Filter>
+    </ClCompile>
+    <ClCompile Include="Neptune.cpp">
+      <Filter>Source Files\Celestials</Filter>
+    </ClCompile>
+    <ClCompile Include="Pluto.cpp">
+      <Filter>Source Files\Celestials</Filter>
+    </ClCompile>
+    <ClCompile Include="Saturn.cpp">
+      <Filter>Source Files\Celestials</Filter>
+    </ClCompile>
+    <ClCompile Include="Sun.cpp">
+      <Filter>Source Files\Celestials</Filter>
+    </ClCompile>
+    <ClCompile Include="Uranus.cpp">
+      <Filter>Source Files\Celestials</Filter>
+    </ClCompile>
+    <ClCompile Include="Venus.cpp">
+      <Filter>Source Files\Celestials</Filter>
+    </ClCompile>
+    <ClCompile Include="Particles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SolarSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceSphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glut32.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="glut32.lib" />
+  </ItemGroup>
+</Project>
